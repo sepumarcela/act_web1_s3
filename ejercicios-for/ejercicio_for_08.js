@@ -9,9 +9,9 @@ let letras = []
 for (let i = 0; i < texto.length; i++) {
     let caracter = texto[i]
     if (contador[caracter]) {
-        contador[caracter]++;
+        contador[caracter]++
     } else {
-        contador[caracter] = 1;
+        contador[caracter] = 1
         letras[letras.length] = caracter
     }
 }

@@ -26,7 +26,7 @@ for (let i = 0; i < 1000; i++) {
 
 console.log("Frecuencia de cada suma:")
 for (let i = 2; i <= 12; i++) {
-    console.log(i + ": " + frecuencia[i]);
+    console.log(i + ": " + frecuencia[i])
 }
 
 
@@ -37,4 +37,4 @@ for (let i = 3; i <= 12; i++) {
     }
 }
 
-console.log("La suma más común es: " + masComun);
+console.log("La suma más común es: " + masComun)
