@@ -3,17 +3,17 @@
 // Debe ignorar espacios, mayúsculas y signos de puntuación.
 
 function esPalindromo(texto) {
-    let limpio = "";
+    let limpio = ""
     for (let i = 0; i < texto.length; i++) {
-        let char = texto[i].toLowerCase();
+        let char = texto[i].toLowerCase()
         if (/[a-z0-9]/.test(char)) {
-            limpio += char;
+            limpio += char
         }
     }
     for (let i = 0; i < limpio.length / 2; i++) {
-        if (limpio[i] !== limpio[limpio.length - 1 - i]) return false;
+        if (limpio[i] !== limpio[limpio.length - 1 - i]) return false
     }
-    return true;
+    return true
 }
 
 console.log(esPalindromo("Son robos o sobornos"))

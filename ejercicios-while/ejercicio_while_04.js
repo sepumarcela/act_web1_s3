@@ -7,7 +7,7 @@ let intentos = 0
 
 while (numero !== 50) {
     numero = Math.floor(Math.random() * 100) + 1
-    intentos++;
+    intentos++
     console.log(`Intento ${intentos}: salió el número ${numero}`)
 }
 console.log(`Podemos ver el número 50 después de ${intentos} intentos.`)

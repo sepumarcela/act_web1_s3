@@ -22,8 +22,8 @@ while (!valido) {
   }
 
   if (tieneMayuscula && tieneMinuscula && tieneNumero) {
-    console.log("Contraseña correcta");
-    valido = true;
+    console.log("Contraseña correcta")
+    valido = true
   } else {
     console.log("Contraseña incorrecta. Vuelve a intentar.")
   }

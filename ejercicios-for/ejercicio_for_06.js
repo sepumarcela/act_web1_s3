@@ -14,8 +14,8 @@ function calcularPotencia(base, exponente) {
     return resultado
 }
 
-let base = 2;
-let exponente = 5;
+let base = 2
+let exponente = 5
 let resultadoFinal = calcularPotencia(base, exponente)
 
 console.log(`Resultado final: ${resultadoFinal}`)

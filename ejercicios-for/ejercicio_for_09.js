@@ -14,7 +14,7 @@ for (let i = 0; i < 1000; i++) {
     let suma = dado1 + dado2
     frecuencia[suma]++
 
-    dado1++;
+    dado1++
     if (dado1 > 6) {
         dado1 = 1
         dado2++;
